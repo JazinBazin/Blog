@@ -32,7 +32,7 @@ class ArticleDetails extends React.Component {
                 <h1>{this.state.article.headline}</h1>
                 <p className="text-muted">{new Date(this.state.article.date).toLocaleString("ru")}</p>
                 <img src={this.state.article.image}
-                className="img-fluid"/>
+                className="img-fluid mx-auto d-block"/>
                 <p className="mt-3">{this.state.article.text}</p>
             </article>
         )
